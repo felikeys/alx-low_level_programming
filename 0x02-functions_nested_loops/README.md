@@ -1,1 +1,1 @@
-islower
+checking on alphabet characters
