@@ -1,1 +1,1 @@
-function that prints a lowercase
+10x alphabet
