@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* islower - print lowercaase
-* @c - an input character
+* islower - check Holberten
+* @c:  An input character
 * Description - the function use the _putchar 
 * to print the lowercases
 *Return: 1 if a found a lowercase and 0 if not
@@ -13,11 +13,11 @@ int _islower(int c)
 	char ch;
 
 	int bool = 0;
+
 	ch = 'a';
 
 	while (ch <= 'z')
 	{
-
 		if (ch == c)
 		{
 			bool = 1;
@@ -27,4 +27,4 @@ int _islower(int c)
 
 	return (bool);
 
-} 
+}
