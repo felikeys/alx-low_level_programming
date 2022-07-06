@@ -1,10 +1,10 @@
 #include "main.h"
 /**
 * islower - print lowercaase
-*
-* Description - the function checks if c is lowercase or not
-*
-* Return 1 if lowercase or 0 when uppercase
+* @c - an input character
+* Description - the function use the _putchar 
+* to print the lowercases
+*Return: 1 if a found a lowercase and 0 if not
 */
 
 int _islower(int c)
@@ -17,6 +17,7 @@ int _islower(int c)
 
 	while (ch <= 'z')
 	{
+
 		if (ch == c)
 		{
 			bool = 1;
@@ -25,4 +26,5 @@ int _islower(int c)
 	}
 
 	return (bool);
+
 } 
