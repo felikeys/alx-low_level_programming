@@ -12,7 +12,7 @@ int _isalpha(int c)
 	int bool = 0;
 	char ch;
 	char ab;
-	
+
 	ch = 'a';
 	while (ch <= 'z')
 	{
