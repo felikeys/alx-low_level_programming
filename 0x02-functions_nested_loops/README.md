@@ -1,1 +1,1 @@
-Coding function nested loops
+function that prints a lowercase
