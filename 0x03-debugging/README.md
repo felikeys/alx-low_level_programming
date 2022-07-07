@@ -1,1 +1,1 @@
-checking errors in a file
+a readme for 1-main.c
