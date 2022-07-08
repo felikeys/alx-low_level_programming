@@ -1,1 +1,1 @@
-date and time
+conversion of date to day of the year
