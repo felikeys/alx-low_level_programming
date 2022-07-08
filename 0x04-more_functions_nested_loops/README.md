@@ -1,1 +1,1 @@
-checking uppercase of a program
+print out digits
