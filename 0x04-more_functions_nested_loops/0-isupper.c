@@ -2,10 +2,10 @@
 
 /**
 * _isupper - prints uppercase
-* Description - the function checks if it is a uppercase or not
-* @c: checks if the character is uppercase
-*
-* Return 1 if  uppercase and when  lowercase
+* description - a functin that uses _putchar
+* to check alphabets
+* @c: An input character
+* Return: 1 if an uppercase and 0 if otherwise
 */
 
 int _isupper(int c)
