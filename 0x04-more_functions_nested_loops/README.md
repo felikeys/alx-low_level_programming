@@ -1,1 +1,1 @@
-print out digits
+multiples of two integers
