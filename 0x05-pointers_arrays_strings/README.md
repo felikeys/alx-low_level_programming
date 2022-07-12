@@ -1,1 +1,1 @@
-function that swap values to integers
+function that returns the legth of a string
