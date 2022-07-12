@@ -1,1 +1,1 @@
-function that returns the legth of a string
+a function that prints a string
