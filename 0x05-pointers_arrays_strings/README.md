@@ -1,1 +1,1 @@
-pointer to an int
+function that swap values to integers
