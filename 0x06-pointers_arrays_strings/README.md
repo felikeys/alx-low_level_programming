@@ -1,1 +1,1 @@
-copy strings using strncpy
+printing out strings using strcmp
