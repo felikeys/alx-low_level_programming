@@ -11,16 +11,7 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	if (dest == NULL)
-	{
-		return (NULL);
-	}
 
-	while (*src && n--)
-	{
-		*dest = *src;
-		dest++;
-		src++;
-	}
-	return (dest);
+	strncpy(dest, src, n);
+	return (dedt);
 }
