@@ -1,1 +1,1 @@
-concatenate two strings
+concatenate using strncat
