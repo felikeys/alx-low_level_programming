@@ -1,1 +1,1 @@
-printing out strings using strcmp
+print array content in reverse
