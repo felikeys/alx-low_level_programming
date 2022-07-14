@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
 * _strcat - This function uses putcahr to
@@ -10,16 +11,17 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int len = 0, i;
+	int l = 0, i;
 
-	while (dest[len])
-	len++;
-
-	for (i = 0; *src != '\0'; i++)
+	while (dest[l])
 	{
-		dest[len] = src[i];
-		len += 1;
+		l++;
 	}
-	dest[len] = '\0';
+	for (i = 0; src[i] ; i++)
+	{
+		dest[l] = src[i];
+		l += 1;
+	}
+	dest[l] = '\0';
 	return (dest);
 }
