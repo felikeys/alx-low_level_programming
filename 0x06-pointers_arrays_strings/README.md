@@ -1,1 +1,1 @@
-concatenate using strncat
+copy strings using strncpy
