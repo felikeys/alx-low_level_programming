@@ -6,7 +6,7 @@
 * Return: a captilized string
 */
 
-char *cap_string(char *)
+char *cap_string(char *x)
 {
 
 	char spc [] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'}
