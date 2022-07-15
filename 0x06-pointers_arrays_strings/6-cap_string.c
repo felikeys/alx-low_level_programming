@@ -2,8 +2,8 @@
 
 /**
 * cap_string - This function captilizes a string
-* @x: string parameter
-* Return: a captilized string
+* @x: string parameter x
+* Return: string
 */
 
 char *cap_string(char *x)
