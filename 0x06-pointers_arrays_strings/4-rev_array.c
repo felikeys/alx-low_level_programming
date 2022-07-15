@@ -10,19 +10,17 @@
 
 void reverse_array(int *a, int n)
 {
-	int *p, u, i, f;
+	int *p, aux, i, f;
 
 	p = a;
 	for (int i = 0; i < n; i++)
-	{
 		p++;
-	}
 
 	for (int k = 0; k < i / 2; i++)
 	{
-		u = a[k];
+		aux = a[k];
 		a[k] = *p;
-		*p = u;
+		*p = aux;
 		p--;
 	}
 }
