@@ -1,1 +1,1 @@
-turn lowercase to uppercase
+captilized all strings
