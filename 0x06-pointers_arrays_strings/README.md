@@ -1,1 +1,1 @@
-print array content in reverse
+turn lowercase to uppercase
