@@ -3,8 +3,8 @@
 /**
 * string_toupper - This function coverts a lowercase string
 * to an uppercase string
-* @x: An input parameter
-* Return: A string
+* @x: An string parameter
+* Return: string
 */
 
 char *string_toupper(char *x)
